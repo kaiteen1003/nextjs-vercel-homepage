@@ -11,7 +11,7 @@ const members = [
   { id: 7, name: 'Muhammad Daniel Iman bin Hussain', role: 'D1', image: '/images/Members_pic/member7.jpg' },//ファーストネームのスペル今度聞いとく
   { id: 8, name: 'Margad-erdene Jargalsaikhan', role: 'D2', image: '/images/Members_pic/member8.jpg' },
   { id: 9, name: 'Pedro Junior Fernandes', role: 'D1', image: '/images/Members_pic/member9.jpg' },
-  { id: 10, name: '仙波 侑也', role: 'M2', image: '/images/Members_pic/member10.jpg' },
+  { id: 10, name: '仙波 侑也', role: 'M2', image: '/images/Members_pic/member10.JPG' },
   { id: 11, name: '馬場 海帆', role: 'M2', image: '/images/Members_pic/member11.jpg' },
   { id: 12, name: 'Fritz Rhaem Olivar', role: 'M2', image: '/images/Members_pic/member12.jpg' },
   { id: 13, name: '金岡 怜汰', role: 'M1', image: '/images/Members_pic/member13.jpg' },

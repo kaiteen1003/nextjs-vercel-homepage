@@ -14,7 +14,7 @@ const Article1 = () => {
 
         {/* 変更点2 (img src = "画像のpath")を入れる　Article〇縦写真ー＞ vertical　横写真ー＞horizontal のクラス指定をお忘れなく。以下のように記述*/}
         <div className="article-image horizontal">
-          <img src="/images/Article3_1.jpg" alt="Homeparty Image 1" />
+          <img src="/images/Article3_1.JPG" alt="Homeparty Image 1" />
         </div>
 
       </div>
