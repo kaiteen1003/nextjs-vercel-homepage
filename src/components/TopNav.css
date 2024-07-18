@@ -22,13 +22,13 @@
   }
   
   .nav-icon {
-    width: 450px; /* 画像の幅を設定 */
+    width: 400px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
   }
-
   .nav-icon:hover {
     content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
   }
+  
   
   .nav-title {
     width: 400px; /* 幅をピクセル数で指定 */
@@ -39,8 +39,13 @@
   .nav-symbol {
     width: 80px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
-    margin-left:10px;
-    }
+    margin-left: 10px;
+    content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
+  }
+  
+  .nav-symbol:hover {
+    content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
+  }
   .center-nav {
     display: flex;
     justify-content: center;

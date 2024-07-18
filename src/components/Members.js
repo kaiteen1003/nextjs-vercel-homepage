@@ -17,7 +17,7 @@ const members = [
   { id: 13, name: '金岡 怜汰', role: 'M1', image: '/images/Members_pic/member13.jpg' },
   { id: 14, name: '前川 仙子', role: 'M1', image: '/images/Members_pic/member14.jpg' },
   { id: 15, name: 'Bayulodie Vallianto', role: 'M1', image: '/images/Members_pic/member15.jpg' },
-  { id: 16, name: '石飛 海斗', role: 'B4', image: '/images/Members_pic/member16.jpg' },
+  { id: 16, name: '石飛 海斗', role: 'B4', image: '/images/Members_pic/member16.JPG' },
   { id: 17, name: '工藤 大河', role: 'B4', image: '/images/Members_pic/member17.jpg' },
   { id: 18, name: '永安 悠愛', role: 'B4', image: '/images/Members_pic/member18.jpg' },
 
