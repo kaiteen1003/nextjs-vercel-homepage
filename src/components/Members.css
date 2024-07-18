@@ -1,0 +1,50 @@
+.members-container {
+  padding: 20px;
+  text-align: left;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px; /* To add space between two lists */
+}
+
+.member-card {
+  width: 200px;
+  text-align: center;
+}
+
+.center-card {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.special-card {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+
+}
+
+.member-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.member-role {
+  margin: 10px 0 5px 0;
+  font-size: 1.2em;
+}
+
+.member-name {
+  margin: 0;
+  font-size: 1em;
+}

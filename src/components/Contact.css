@@ -1,0 +1,53 @@
+.background {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: auto;
+  background:#fbfffa;;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 20px 0;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-section {
+  width: 45%;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #ddd;
+}
+
+.access-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.access-button:hover {
+  background-color: #0056b3;
+}
+
+.access-button:link,
+.access-button:visited {
+  text-decoration: none;
+}

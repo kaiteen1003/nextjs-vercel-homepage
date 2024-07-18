@@ -1,0 +1,75 @@
+
+@media screen and (orientation: landscape) {
+  .main-content h2 {
+    font-size: 40px;
+    border-bottom: 6px solid rgb(0, 255, 170); /* 黒い下線を付ける */
+    padding-bottom: 10px; /* 下線とテキストの間のスペースを設定 */
+    margin-bottom: 20px; /* 下線の下の余白を設定 */
+    font-weight: bold; /* 太字にする */
+  }
+  
+    h3 {
+      font-size: 30px;
+      font-family: 'Hiragino Mincho Pro';
+
+    }
+    h4 {
+      font-size: 26px;
+      text-decoration: none; /* 下線を追加 */
+      font-family: 'Hiragino Mincho Pro';
+      font-weight: 300; /* フォントウェイトを細字に設定 */
+    }
+    .main-content {
+        max-width: 1200px;
+        margin: 90px auto;
+        text-align: left;
+        font-size: 24px; /* テキストの大きさを設定 */
+      }
+    .video-container {
+        margin-top: 20px;
+        text-align: center;
+        background-color: #f2f2f2; /* 薄い灰色の背景色を設定 */
+      }
+
+
+  
+}
+
+
+@media screen and (orientation: portrait) {
+  .main-content h2 {
+    font-size: 35px;
+    border-bottom: 6px solid rgb(0, 255, 170); /* 黒い下線を付ける */
+    margin-bottom: 20px; /* 下線の下の余白を設定 */
+    font-weight: bold; /* 太字にする */
+    
+  }
+  
+    h3 {
+      font-size: 25px;
+      font-family: 'Hiragino Mincho Pro';
+
+    }
+    h4 {
+      font-size: 22px;
+      text-decoration: none; /* 下線を追加 */
+      font-family: 'Hiragino Mincho Pro';
+      font-weight: 300; /* フォントウェイトを細字に設定 */
+    }
+    .main-content {
+        max-width: 1200px;
+        margin: 0px auto;
+        text-align: left;
+        font-size: 24px; /* テキストの大きさを設定 */
+        padding: 20px;
+      }
+    .video-container {
+      
+        text-align: center;
+        background-color: #f2f2f2; /* 薄い灰色の背景色を設定 */
+      }
+
+
+  
+
+}

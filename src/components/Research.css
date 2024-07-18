@@ -1,0 +1,20 @@
+.research-image {
+  width: 70%; /* Adjust the percentage to the desired size */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure the image is centered if needed */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+
+h5 {
+  font-size: 35px;
+  font-family: 'Hiragino Mincho Pro';
+  color:rgb(20, 167, 118);
+
+}
+h6 {
+  font-size: 30px;
+  font-family: 'Hiragino Mincho Pro';
+  color:rgb(4, 159, 187);
+
+}

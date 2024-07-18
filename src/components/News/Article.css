@@ -1,0 +1,28 @@
+.article-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.article-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-image {
+  margin-bottom: 10px;
+}
+
+.article-image.vertical {
+  width: calc(50% - 10px); /* 2 columns layout with a gap */
+}
+
+.article-image.horizontal {
+  width: 100%;
+}
+
+.article-image img {
+  width: 100%;
+  height: auto;
+}
