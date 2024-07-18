@@ -31,4 +31,5 @@
     border-bottom: 6px solid rgb(0, 255, 170);  /* 黒い下線を付ける */
     padding-bottom: 10px; /* 下線とテキストの間のスペースを設定 */
     margin-bottom: 20px; /* 下線の下の余白を設定 */
+    font-weight: 900;
   }
