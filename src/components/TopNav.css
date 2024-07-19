@@ -1,177 +1,40 @@
-@media screen and (orientation: landscape) {
-  .top-nav {
-      margin-top: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px 20px;
-      border-top: 1px solid black; /* 上にボーダーを追加 */
-      border-bottom: 1px solid black; /* 下にボーダーを追加 */
-  }
-
-  .left-content {
-    display: flex;
-    align-items: center;
-    margin-right:70px;
-  }
-  
-  .right-content {
-    display: flex;
-    align-items: center;
-    margin-left:80px;
-  }
-  
-  .nav-icon {
-    width: 400px; /* 画像の幅を設定 */
-    height: auto; /* 高さは自動調整 */
-  }
-  .nav-icon:hover {
-    content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
-  }
-  
-  
-  .nav-title {
-    width: 400px; /* 幅をピクセル数で指定 */
-    height: auto; /* 高さは自動調整 */
-    margin-right: 550px; /* 左側の余白を設定 */
-  }
-  
-  .nav-symbol {
-    width: 80px; /* 画像の幅を設定 */
-    height: auto; /* 高さは自動調整 */
-    margin-left: 10px;
-    content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
-  }
-  
-  .nav-symbol:hover {
-    content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
-  }
-  .center-nav {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-
-  }
-  
-  .center-nav img {
-    position: relative;
-    padding: 0;
-    height: 100px;
-    cursor: pointer;
-    object-fit: cover;
-  }
-  
-  .center-nav img::before {
-    content: "";
-    position: absolute;
-    bottom: -2px; /* バーの位置を調整 */
-    left: 0;
-    width: 100%;
-    height: 1px; /* バーの高さを調整 */
-    background-color: #000003; /* バーの色を黒に設定 */
-    opacity: 0; /* 初期状態では透明に設定 */
-    transition: opacity 0.3s; /* ホバー時の遷移をスムーズにする */
-    background-color: #ffffff;
-  }
-  
-  .center-nav img:hover::before {
-    opacity: 1; /* ホバー時にバーを表示 */
-  }
-  
-  .center-nav img:hover {
-    opacity: 0.7;
-    bottom: 5px; /* ボーダーを上にあげるために負の値を調整 */
-    border-bottom: 1px solid black; /* 下にボーダーを追加 */
-  }
-  .SwitchLan{
-    width: 50px; /* 画像の幅を設定 */
-  }
-  .SwitchLan:hover {
-    transform: rotate(180deg); /* ホバー時に180度回転 */
-  }
-}
-
-@media screen and (orientation: portrait) {
-  .top-nav {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-bottom: 1px solid black; /* 下にボーダーを追加 */
+/* デフォルトのスタイル */
+.top-nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-top: 1px solid black; /* 上にボーダーを追加 */
+  border-bottom: 1px solid black; /* 下にボーダーを追加 */
 }
 
 .left-content {
   display: flex;
   align-items: center;
-  margin-right:70px;
+  margin-right: 70px;
 }
 
 .right-content {
   display: flex;
   align-items: center;
-  margin-left:60px;
+  margin-left: 80px;
 }
 
-  
-  .nav-icon {
-    width: 400px; /* 画像の幅を設定 */
-    height: auto; /* 高さは自動調整 */
-  }
-  .nav-icon:hover {
-    content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
-  }
-  
-  .nav-symbol {
-    width: 80px; /* 画像の幅を設定 */
-    height: auto; /* 高さは自動調整 */
-    margin-left:10px;
-  }
-  .center-nav {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+.nav-icon {
+  width: 400px; /* 画像の幅を設定 */
+  height: auto; /* 高さは自動調整 */
+}
 
-  }
-  
-  .center-nav img {
-    position: relative;
-    padding: 0;
-    height: 100px;
-    cursor: pointer;
-    object-fit: cover;
-  }
-  
-  .center-nav img::before {
-    content: "";
-    position: absolute;
-    bottom: -2px; /* バーの位置を調整 */
-    left: 0;
-    width: 100%;
-    height: 0px; /* バーの高さを調整 */
-    background-color: #000003; /* バーの色を黒に設定 */
-    opacity: 0; /* 初期状態では透明に設定 */
-    transition: opacity 0.3s; /* ホバー時の遷移をスムーズにする */
-    
-    background-color: #ffffff;
-  }
-  
-  .center-nav img:hover::before {
-    opacity: 1; /* ホバー時にバーを表示 */
-  }
-  
-  .center-nav img:hover {
-    opacity: 0.7;
-    bottom: 5px; /* ボーダーを上にあげるために負の値を調整 */
-    border-bottom: 1px solid black; /* 下にボーダーを追加 */
-  }
-  /* Other existing CSS rules */
+.nav-icon:hover {
+  content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
+}
 
-/* Other existing CSS rules */
-
-/* Other existing CSS rules */
+.nav-title {
+  width: 400px; /* 幅をピクセル数で指定 */
+  height: auto; /* 高さは自動調整 */
+  margin-right: 550px; /* 左側の余白を設定 */
+}
 
 .nav-symbol {
   width: 80px; /* 画像の幅を設定 */
@@ -184,10 +47,67 @@
   content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
 }
 
-.SwitchLan{
+.SwitchLan {
   width: 50px; /* 画像の幅を設定 */
 }
+
 .SwitchLan:hover {
   transform: rotate(180deg); /* ホバー時に180度回転 */
 }
+
+/* スマホ対応: 画面が縦向きの場合 */
+@media screen and (orientation: portrait) {
+  .top-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black; /* 下にボーダーを追加 */
+  }
+
+  .left-content, .right-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .nav-icon, .nav-title, .nav-symbol {
+    width: 100%;
+    max-width: 300px; /* スマホ向けに最大幅を設定 */
+  }
+
+  .nav-symbol {
+    margin-left: 0;
+    margin-top: 10px; /* スペースを追加 */
+  }
+
+  .SwitchLan {
+    width: 40px; /* 幅を調整 */
+  }
+}
+
+/* スマホ対応: 画面が横向きの場合 */
+@media screen and (orientation: landscape) {
+  .top-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-top: 1px solid black; /* 上にボーダーを追加 */
+    border-bottom: 1px solid black; /* 下にボーダーを追加 */
+  }
+
+  .left-content {
+    margin-right: 70px;
+  }
+
+  .right-content {
+    margin-left: 80px;
+  }
+
+  .nav-icon, .nav-title, .nav-symbol {
+    width: auto;
+    height: auto;
+  }
 }
