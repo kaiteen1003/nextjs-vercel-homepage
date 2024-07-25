@@ -96,7 +96,7 @@
       font-weight: 300; /* フォントウェイトを細字に設定 */
     }
     .main-content {
-        max-width: 100%;
+        max-width: 300%;
         margin: 0px auto;
         text-align: left;
         font-size: 24px; /* テキストの大きさを設定 */
