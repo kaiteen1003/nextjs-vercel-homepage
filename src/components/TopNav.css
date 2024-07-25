@@ -1,4 +1,4 @@
-@media screen and (orientation: landscape) {
+@media screen and (min-width: 480px) and (orientation: landscape) {
   .top-nav {
       margin-top: 20px;
       display: flex;
@@ -92,7 +92,7 @@
   }
 }
 
-@media screen and (orientation: portrait) {
+@media screen and(min-width: 480px) and (orientation: portrait) {
   .top-nav {
     margin-top: 20px;
     display: flex;
@@ -214,6 +214,7 @@
 .right-content {
   display: flex;
   align-items: center;
+
 }
 
   
