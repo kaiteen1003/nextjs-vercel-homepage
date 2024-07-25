@@ -219,7 +219,7 @@
 
   
   .nav-icon {
-    width: 50px; /* 画像の幅を設定 */
+    width: 80px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
   }
   .nav-icon:hover {
@@ -277,7 +277,7 @@
 /* Other existing CSS rules */
 
 .nav-symbol {
-  width: 50px; /* 画像の幅を設定 */
+  width: 40px; /* 画像の幅を設定 */
   height: auto; /* 高さは自動調整 */
   content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
 }
