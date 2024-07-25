@@ -92,105 +92,105 @@
   }
 }
 
-@media screen and(min-width: 480px) and (orientation: portrait) {
+@media screen and (orientation: portrait) and (min-width: 400px) {
   .top-nav {
-    margin-top: 20px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      border-bottom: 1px solid black; /* 下にボーダーを追加 */
+  }
+  
+  .left-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    border-bottom: 1px solid black; /* 下にボーダーを追加 */
-}
-
-.left-content {
-  display: flex;
-  align-items: center;
-  margin-right:70px;
-}
-
-.right-content {
-  display: flex;
-  align-items: center;
-  margin-left:60px;
-}
-
+    margin-right:70px;
+  }
   
-  .nav-icon {
-    width: 400px; /* 画像の幅を設定 */
-    height: auto; /* 高さは自動調整 */
+  .right-content {
+    display: flex;
+    align-items: center;
+    margin-left:60px;
   }
-  .nav-icon:hover {
-    content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
-  }
+  
+    
+    .nav-icon {
+      width: 400px; /* 画像の幅を設定 */
+      height: auto; /* 高さは自動調整 */
+    }
+    .nav-icon:hover {
+      content: url('../../public/images/Logo_hover.png'); /* ホバー時に表示する画像を指定 */
+    }
+    
+    .nav-symbol {
+      width: 80px; /* 画像の幅を設定 */
+      height: auto; /* 高さは自動調整 */
+      margin-left:10px;
+    }
+    .center-nav {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+  
+    }
+    
+    .center-nav img {
+      position: relative;
+      padding: 0;
+      height: 100px;
+      cursor: pointer;
+      object-fit: cover;
+    }
+    
+    .center-nav img::before {
+      content: "";
+      position: absolute;
+      bottom: -2px; /* バーの位置を調整 */
+      left: 0;
+      width: 100%;
+      height: 0px; /* バーの高さを調整 */
+      background-color: #000003; /* バーの色を黒に設定 */
+      opacity: 0; /* 初期状態では透明に設定 */
+      transition: opacity 0.3s; /* ホバー時の遷移をスムーズにする */
+      
+      background-color: #ffffff;
+    }
+    
+    .center-nav img:hover::before {
+      opacity: 1; /* ホバー時にバーを表示 */
+    }
+    
+    .center-nav img:hover {
+      opacity: 0.7;
+      bottom: 5px; /* ボーダーを上にあげるために負の値を調整 */
+      border-bottom: 1px solid black; /* 下にボーダーを追加 */
+    }
+    /* Other existing CSS rules */
+  
+  /* Other existing CSS rules */
+  
+  /* Other existing CSS rules */
   
   .nav-symbol {
     width: 80px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
-    margin-left:10px;
-  }
-  .center-nav {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-
+    margin-left: 10px;
+    content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
   }
   
-  .center-nav img {
-    position: relative;
-    padding: 0;
-    height: 100px;
-    cursor: pointer;
-    object-fit: cover;
+  .nav-symbol:hover {
+    content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
   }
   
-  .center-nav img::before {
-    content: "";
-    position: absolute;
-    bottom: -2px; /* バーの位置を調整 */
-    left: 0;
-    width: 100%;
-    height: 0px; /* バーの高さを調整 */
-    background-color: #000003; /* バーの色を黒に設定 */
-    opacity: 0; /* 初期状態では透明に設定 */
-    transition: opacity 0.3s; /* ホバー時の遷移をスムーズにする */
-    
-    background-color: #ffffff;
+  .SwitchLan{
+    width: 50px; /* 画像の幅を設定 */
   }
-  
-  .center-nav img:hover::before {
-    opacity: 1; /* ホバー時にバーを表示 */
+  .SwitchLan:hover {
+    transform: rotate(180deg); /* ホバー時に180度回転 */
   }
-  
-  .center-nav img:hover {
-    opacity: 0.7;
-    bottom: 5px; /* ボーダーを上にあげるために負の値を調整 */
-    border-bottom: 1px solid black; /* 下にボーダーを追加 */
   }
-  /* Other existing CSS rules */
-
-/* Other existing CSS rules */
-
-/* Other existing CSS rules */
-
-.nav-symbol {
-  width: 80px; /* 画像の幅を設定 */
-  height: auto; /* 高さは自動調整 */
-  margin-left: 10px;
-  content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
-}
-
-.nav-symbol:hover {
-  content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
-}
-
-.SwitchLan{
-  width: 50px; /* 画像の幅を設定 */
-}
-.SwitchLan:hover {
-  transform: rotate(180deg); /* ホバー時に180度回転 */
-}
-}
 
 
 
