@@ -208,6 +208,7 @@
 .left-content {
   display: flex;
   align-items: center;
+  left:0;
 }
 
 .right-content {
@@ -275,9 +276,8 @@
 /* Other existing CSS rules */
 
 .nav-symbol {
-  width: 80px; /* 画像の幅を設定 */
+  width: 40px; /* 画像の幅を設定 */
   height: auto; /* 高さは自動調整 */
-  margin-left: 10px;
   content: url('../../public/images/YUsymbol.png'); /* ホバー前の画像パスを指定 */
 }
 
