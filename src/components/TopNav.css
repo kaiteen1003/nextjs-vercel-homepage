@@ -217,7 +217,7 @@
 
   
   .nav-icon {
-    width: 100px; /* 画像の幅を設定 */
+    width: 10px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
   }
   .nav-icon:hover {
@@ -240,7 +240,7 @@
   .center-nav img {
     position: relative;
     padding: 0;
-    height: 100px;
+    height: 50px;
     cursor: pointer;
     object-fit: cover;
   }
@@ -285,10 +285,5 @@
   content: url('../../public/images/YUsymbol2.png'); /* ホバー時の画像パスを指定 */
 }
 
-.SwitchLan{
-  width: 50px; /* 画像の幅を設定 */
-}
-.SwitchLan:hover {
-  transform: rotate(180deg); /* ホバー時に180度回転 */
-}
+
 }
