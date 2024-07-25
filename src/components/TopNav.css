@@ -195,7 +195,7 @@
 
 
 /*-----スマホ向けの記述-----*/
-@media screen and (max-width: 850px) {　/*ウィンドウ幅が0～479pxの場合にCSSを適用*/
+@media screen and (max-width: 479px) {　/*ウィンドウ幅が0～479pxの場合にCSSを適用*/
   .top-nav {
     margin-top: 20px;
     display: flex;
@@ -217,7 +217,7 @@
 
   
   .nav-icon {
-    width: 200px; /* 画像の幅を設定 */
+    width: 100px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
   }
   .nav-icon:hover {
@@ -227,7 +227,7 @@
   .nav-symbol {
     width: 40px; /* 画像の幅を設定 */
     height: auto; /* 高さは自動調整 */
-    margin-left:10px;
+
   }
   .center-nav {
     display: flex;
