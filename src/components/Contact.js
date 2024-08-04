@@ -9,7 +9,7 @@ const Contact = () => {
         <hr className="divider" />
         <div className="contact-container">
           <div className="contact-section">
-            <p>山口大学大学大学院創成科学研究科<br />工学部知能情報工学科<br />応用衛星リモートセンシング研究センター<br /><br />大学院工学部　電気電子情報系専攻<br />知能情報工学メディアコース</p>
+            <p>山口大学大学院創成科学研究科<br />工学部知能情報工学科<br />応用衛星リモートセンシング研究センター<br /><br />大学院工学部　電気電子情報系専攻<br />知能情報工学メディアコース</p>
           </div>
           <div className="vertical-line"></div>
           <div className="contact-section">

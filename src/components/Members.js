@@ -4,7 +4,7 @@ import './Members.css';
 const members = [
   { id: 1, name: '長井 正彦', role: '教授', image: '/images/Members_pic/member1.jpg' },
   { id: 2, name: '和田里 花', role: '助教', image: '/images/Members_pic/member2.jpg' },
-  { id: 3, name: '江口 毅', role: '助教', image: '/images/Members_pic/member3.jpg' },
+  { id: 3, name: '江口 毅', role: '助教', image: '/images/Members_pic/member3.png' },
   { id: 4, name: 'Rosalie Reyes', role: '特任准教授', image: '/images/Members_pic/member4.jpg' },
   { id: 5, name: 'Vaibhav Katiyar', role: '准教授', image: '/images/Members_pic/member5.png' },
   { id: 6, name: 'Arnob Bormudoi', role: '研究員', image: '/images/Members_pic/member6.jpg' },
