@@ -26,3 +26,8 @@
   width: 100%;
   height: auto;
 }
+
+/* ここにpタグのスタイルを追加 */
+.article-container p {
+  font-weight: bold; /* または font-weight: 600; */
+}
