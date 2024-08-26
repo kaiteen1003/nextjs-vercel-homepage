@@ -14,7 +14,7 @@ const Article5 = () => {
       
       <div className="article-images">
         <div className="small-image"> {/* ここにsmall-imageクラスを追加 */}
-          <img src="/images/Article5_4.png" alt="Image 1" />
+          <img src="/images/Article5_4.png" alt="Image 4" />
         </div>
        
         <div className="article-image horizontal">
