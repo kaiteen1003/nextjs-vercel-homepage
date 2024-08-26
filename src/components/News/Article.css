@@ -22,12 +22,24 @@
   width: 100%;
 }
 
+/* Article.css */
+.small-image {
+  width: 50%; /* 画像の幅を50%に縮小 */
+  height: auto; /* アスペクト比を維持 */
+  margin: 0 auto; /* 中央揃えにする */
+  display: flex; /* フレックスボックスに変更 */
+  justify-content: center; /* 水平方向に中央揃え */
+}
+
+
+
 .article-image img {
   width: 100%;
   height: auto;
 }
-
 /* ここにpタグのスタイルを追加 */
 .article-container p {
   font-weight: bold; /* または font-weight: 600; */
+  font-size: 20px; /* 文字サイズを20pxに設定 */
+  line-height: 1.5; /* 行間を少し広げて読みやすくする */
 }
