@@ -18,16 +18,23 @@ const Article5 = () => {
         </div>
        
         <div className="article-image horizontal">
-        <h5>当日の様子</h5>
-          <img src="/images/Article5_1.JPG" alt="Image 1" />
+        <h5>感想</h5>
+        <p>講師：前川仙子</p>
+        <p>「講師を務めるにあたって、私自身も小学生のころに科学館に行ったり講義を受けに行ったりして宇宙や科学について学んだことを思い出しました。逆に、今度は私が小学生に宇宙を教える機会を得ることができ、非常に貴重な経験を積むことができました。科学や宇宙に関心を持ってほしいという思いで取り組ませていただきました。」</p>
+ 
+          <img src="/images/Article5_1.jpg" alt="Image 1" />
         </div>
         <div className="article-image horizontal">
-          <img src="/images/Article5_2.jpg" alt="Image 2" />
+        <h5>当日の様子</h5>
+          <img src="/images/Article5_2.JPG" alt="Image 2" />
         </div>
         <div className="article-image horizontal">
           <img src="/images/Article5_3.jpg" alt="Image 3" />
         </div>
       </div>
+    <h5>コズミックカレッジの振り返りをして</h5>
+   
+
     </div>
   );
 }
