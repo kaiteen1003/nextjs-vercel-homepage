@@ -32,7 +32,6 @@ const Article5 = () => {
           <img src="/images/Article5_3.jpg" alt="Image 3" />
         </div>
       </div>
-    <h5>コズミックカレッジの振り返りをして</h5>
    
 
     </div>
